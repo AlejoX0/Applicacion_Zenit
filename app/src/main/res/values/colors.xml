@@ -1,0 +1,8 @@
+<resources>
+    <color name="ic_launcher_background">#0B1D2C</color>
+    <color name="primary">#0D47A1</color>
+    <color name="onPrimary">#FFFFFF</color>
+    <color name="secondary">#26C6DA</color>
+    <color name="surface">#0F1A26</color>
+    <color name="surfaceVariant">#152438</color>
+</resources>
