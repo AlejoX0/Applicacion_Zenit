@@ -10,7 +10,7 @@ data class Product(
     val title: String,
     val description: String,
     val price: String,
-    @DrawableRes val imageResId: Int
+    @get:DrawableRes val imageResId: Int
 )
 
 class CatalogAdapter(private val products: List<Product>) : RecyclerView.Adapter<CatalogAdapter.ProductViewHolder>() {

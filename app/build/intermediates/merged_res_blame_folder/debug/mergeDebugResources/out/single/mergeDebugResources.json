@@ -8,28 +8,28 @@
         "source": "C:\\Users\\ALEJO\\.gradle\\daemon\\9.0-milestone-1\\com.zenit.digital.app-main-54:\\drawable\\ic_catalog.xml"
     },
     {
-        "merged": "C:\\Users\\ALEJO\\.gradle\\daemon\\9.0-milestone-1\\com.zenit.digital.app-debug-52:\\drawable_ic_facebook.xml.flat",
-        "source": "C:\\Users\\ALEJO\\.gradle\\daemon\\9.0-milestone-1\\com.zenit.digital.app-main-54:\\drawable\\ic_facebook.xml"
-    },
-    {
         "merged": "C:\\Users\\ALEJO\\.gradle\\daemon\\9.0-milestone-1\\com.zenit.digital.app-debug-52:\\drawable_nintendo_switch_oled.jpg.flat",
         "source": "C:\\Users\\ALEJO\\.gradle\\daemon\\9.0-milestone-1\\com.zenit.digital.app-main-54:\\drawable\\nintendo_switch_oled.jpg"
+    },
+    {
+        "merged": "C:\\Users\\ALEJO\\.gradle\\daemon\\9.0-milestone-1\\com.zenit.digital.app-debug-52:\\drawable_ic_facebook.xml.flat",
+        "source": "C:\\Users\\ALEJO\\.gradle\\daemon\\9.0-milestone-1\\com.zenit.digital.app-main-54:\\drawable\\ic_facebook.xml"
     },
     {
         "merged": "C:\\Users\\ALEJO\\.gradle\\daemon\\9.0-milestone-1\\com.zenit.digital.app-debug-52:\\drawable_ic_launcher_background.xml.flat",
         "source": "C:\\Users\\ALEJO\\.gradle\\daemon\\9.0-milestone-1\\com.zenit.digital.app-main-54:\\drawable\\ic_launcher_background.xml"
     },
     {
-        "merged": "C:\\Users\\ALEJO\\.gradle\\daemon\\9.0-milestone-1\\com.zenit.digital.app-debug-52:\\layout_fragment_desktop_pc_builder.xml.flat",
-        "source": "C:\\Users\\ALEJO\\.gradle\\daemon\\9.0-milestone-1\\com.zenit.digital.app-main-54:\\layout\\fragment_desktop_pc_builder.xml"
+        "merged": "C:\\Users\\ALEJO\\.gradle\\daemon\\9.0-milestone-1\\com.zenit.digital.app-debug-52:\\layout_fragment_gallery.xml.flat",
+        "source": "C:\\Users\\ALEJO\\.gradle\\daemon\\9.0-milestone-1\\com.zenit.digital.app-main-54:\\layout\\fragment_gallery.xml"
     },
     {
         "merged": "C:\\Users\\ALEJO\\.gradle\\daemon\\9.0-milestone-1\\com.zenit.digital.app-debug-52:\\layout_fragment_video.xml.flat",
         "source": "C:\\Users\\ALEJO\\.gradle\\daemon\\9.0-milestone-1\\com.zenit.digital.app-main-54:\\layout\\fragment_video.xml"
     },
     {
-        "merged": "C:\\Users\\ALEJO\\.gradle\\daemon\\9.0-milestone-1\\com.zenit.digital.app-debug-52:\\layout_fragment_gallery.xml.flat",
-        "source": "C:\\Users\\ALEJO\\.gradle\\daemon\\9.0-milestone-1\\com.zenit.digital.app-main-54:\\layout\\fragment_gallery.xml"
+        "merged": "C:\\Users\\ALEJO\\.gradle\\daemon\\9.0-milestone-1\\com.zenit.digital.app-debug-52:\\layout_fragment_desktop_pc_builder.xml.flat",
+        "source": "C:\\Users\\ALEJO\\.gradle\\daemon\\9.0-milestone-1\\com.zenit.digital.app-main-54:\\layout\\fragment_desktop_pc_builder.xml"
     },
     {
         "merged": "C:\\Users\\ALEJO\\.gradle\\daemon\\9.0-milestone-1\\com.zenit.digital.app-debug-52:\\drawable_ic_twitter.xml.flat",
@@ -92,10 +92,6 @@
         "source": "C:\\Users\\ALEJO\\.gradle\\daemon\\9.0-milestone-1\\com.zenit.digital.app-main-54:\\layout\\fragment_main_topic.xml"
     },
     {
-        "merged": "com.zenit.digital.app-debug-52:/layout_fragment_video.xml.flat",
-        "source": "com.zenit.digital.app-main-54:/layout/fragment_video.xml"
-    },
-    {
         "merged": "C:\\Users\\ALEJO\\.gradle\\daemon\\9.0-milestone-1\\com.zenit.digital.app-debug-52:\\xml_backup_rules.xml.flat",
         "source": "C:\\Users\\ALEJO\\.gradle\\daemon\\9.0-milestone-1\\com.zenit.digital.app-main-54:\\xml\\backup_rules.xml"
     },
@@ -114,6 +110,10 @@
     {
         "merged": "C:\\Users\\ALEJO\\.gradle\\daemon\\9.0-milestone-1\\com.zenit.digital.app-debug-52:\\drawable_iphone15pro.jpg.flat",
         "source": "C:\\Users\\ALEJO\\.gradle\\daemon\\9.0-milestone-1\\com.zenit.digital.app-main-54:\\drawable\\iphone15pro.jpg"
+    },
+    {
+        "merged": "com.zenit.digital.app-debug-52:/layout_item_gallery_image.xml.flat",
+        "source": "com.zenit.digital.app-main-54:/layout/item_gallery_image.xml"
     },
     {
         "merged": "C:\\Users\\ALEJO\\.gradle\\daemon\\9.0-milestone-1\\com.zenit.digital.app-debug-52:\\drawable_samsung_galaxys24_utra.jpg.flat",
@@ -146,6 +146,10 @@
     {
         "merged": "C:\\Users\\ALEJO\\.gradle\\daemon\\9.0-milestone-1\\com.zenit.digital.app-debug-52:\\drawable_ic_instagram.xml.flat",
         "source": "C:\\Users\\ALEJO\\.gradle\\daemon\\9.0-milestone-1\\com.zenit.digital.app-main-54:\\drawable\\ic_instagram.xml"
+    },
+    {
+        "merged": "com.zenit.digital.app-debug-52:/layout_fragment_gallery.xml.flat",
+        "source": "com.zenit.digital.app-main-54:/layout/fragment_gallery.xml"
     },
     {
         "merged": "C:\\Users\\ALEJO\\.gradle\\daemon\\9.0-milestone-1\\com.zenit.digital.app-debug-52:\\layout_fragment_calculator.xml.flat",

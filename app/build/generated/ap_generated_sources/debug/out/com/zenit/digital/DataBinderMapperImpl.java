@@ -20,6 +20,7 @@ import com.zenit.digital.databinding.FragmentMissionBindingImpl;
 import com.zenit.digital.databinding.FragmentSocialBindingImpl;
 import com.zenit.digital.databinding.FragmentVideoBindingImpl;
 import com.zenit.digital.databinding.ItemCatalogProductBindingImpl;
+import com.zenit.digital.databinding.ItemGalleryImageBindingImpl;
 import com.zenit.digital.databinding.ItemMainMenuBindingImpl;
 import java.lang.IllegalArgumentException;
 import java.lang.Integer;
@@ -60,9 +61,11 @@ public class DataBinderMapperImpl extends DataBinderMapper {
 
   private static final int LAYOUT_ITEMCATALOGPRODUCT = 14;
 
-  private static final int LAYOUT_ITEMMAINMENU = 15;
+  private static final int LAYOUT_ITEMGALLERYIMAGE = 15;
 
-  private static final SparseIntArray INTERNAL_LAYOUT_ID_LOOKUP = new SparseIntArray(15);
+  private static final int LAYOUT_ITEMMAINMENU = 16;
+
+  private static final SparseIntArray INTERNAL_LAYOUT_ID_LOOKUP = new SparseIntArray(16);
 
   static {
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.zenit.digital.R.layout.fragment_about_us, LAYOUT_FRAGMENTABOUTUS);
@@ -79,6 +82,7 @@ public class DataBinderMapperImpl extends DataBinderMapper {
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.zenit.digital.R.layout.fragment_social, LAYOUT_FRAGMENTSOCIAL);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.zenit.digital.R.layout.fragment_video, LAYOUT_FRAGMENTVIDEO);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.zenit.digital.R.layout.item_catalog_product, LAYOUT_ITEMCATALOGPRODUCT);
+    INTERNAL_LAYOUT_ID_LOOKUP.put(com.zenit.digital.R.layout.item_gallery_image, LAYOUT_ITEMGALLERYIMAGE);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.zenit.digital.R.layout.item_main_menu, LAYOUT_ITEMMAINMENU);
   }
 
@@ -175,6 +179,12 @@ public class DataBinderMapperImpl extends DataBinderMapper {
           }
           throw new IllegalArgumentException("The tag for item_catalog_product is invalid. Received: " + tag);
         }
+        case  LAYOUT_ITEMGALLERYIMAGE: {
+          if ("layout/item_gallery_image_0".equals(tag)) {
+            return new ItemGalleryImageBindingImpl(component, view);
+          }
+          throw new IllegalArgumentException("The tag for item_gallery_image is invalid. Received: " + tag);
+        }
         case  LAYOUT_ITEMMAINMENU: {
           if ("layout/item_main_menu_0".equals(tag)) {
             return new ItemMainMenuBindingImpl(component, view);
@@ -234,7 +244,7 @@ public class DataBinderMapperImpl extends DataBinderMapper {
   }
 
   private static class InnerLayoutIdLookup {
-    static final HashMap<String, Integer> sKeys = new HashMap<String, Integer>(15);
+    static final HashMap<String, Integer> sKeys = new HashMap<String, Integer>(16);
 
     static {
       sKeys.put("layout/fragment_about_us_0", com.zenit.digital.R.layout.fragment_about_us);
@@ -251,6 +261,7 @@ public class DataBinderMapperImpl extends DataBinderMapper {
       sKeys.put("layout/fragment_social_0", com.zenit.digital.R.layout.fragment_social);
       sKeys.put("layout/fragment_video_0", com.zenit.digital.R.layout.fragment_video);
       sKeys.put("layout/item_catalog_product_0", com.zenit.digital.R.layout.item_catalog_product);
+      sKeys.put("layout/item_gallery_image_0", com.zenit.digital.R.layout.item_gallery_image);
       sKeys.put("layout/item_main_menu_0", com.zenit.digital.R.layout.item_main_menu);
     }
   }

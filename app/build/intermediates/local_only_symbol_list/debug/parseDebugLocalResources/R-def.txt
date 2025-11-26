@@ -48,6 +48,8 @@ id desktop_pc_builder_button
 id email_card
 id facebook_button
 id galleryFragment
+id gallery_image
+id gallery_recycler_view
 id gpu_spinner
 id instagram_button
 id laptopConfiguratorFragment
@@ -96,6 +98,7 @@ layout fragment_mission
 layout fragment_social
 layout fragment_video
 layout item_catalog_product
+layout item_gallery_image
 layout item_main_menu
 menu bottom_nav_menu
 menu main_menu

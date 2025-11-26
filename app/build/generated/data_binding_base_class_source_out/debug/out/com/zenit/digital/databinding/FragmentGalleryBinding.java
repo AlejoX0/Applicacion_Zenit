@@ -8,13 +8,19 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.databinding.DataBindingUtil;
 import androidx.databinding.ViewDataBinding;
+import androidx.recyclerview.widget.RecyclerView;
 import com.zenit.digital.R;
 import java.lang.Deprecated;
 import java.lang.Object;
 
 public abstract class FragmentGalleryBinding extends ViewDataBinding {
-  protected FragmentGalleryBinding(Object _bindingComponent, View _root, int _localFieldCount) {
+  @NonNull
+  public final RecyclerView galleryRecyclerView;
+
+  protected FragmentGalleryBinding(Object _bindingComponent, View _root, int _localFieldCount,
+      RecyclerView galleryRecyclerView) {
     super(_bindingComponent, _root, _localFieldCount);
+    this.galleryRecyclerView = galleryRecyclerView;
   }
 
   @NonNull
