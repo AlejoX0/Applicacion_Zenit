@@ -16,8 +16,7 @@ public class FragmentMainBindingImpl extends FragmentMainBinding  {
         sViewsWithIds = new android.util.SparseIntArray();
         sViewsWithIds.put(R.id.app_bar_layout, 1);
         sViewsWithIds.put(R.id.toolbar, 2);
-        sViewsWithIds.put(R.id.main_nav_host_fragment, 3);
-        sViewsWithIds.put(R.id.bottom_navigation, 4);
+        sViewsWithIds.put(R.id.main_menu_recycler_view, 3);
     }
     // views
     @NonNull
@@ -28,13 +27,12 @@ public class FragmentMainBindingImpl extends FragmentMainBinding  {
     // Inverse Binding Event Handlers
 
     public FragmentMainBindingImpl(@Nullable androidx.databinding.DataBindingComponent bindingComponent, @NonNull View root) {
-        this(bindingComponent, root, mapBindings(bindingComponent, root, 5, sIncludes, sViewsWithIds));
+        this(bindingComponent, root, mapBindings(bindingComponent, root, 4, sIncludes, sViewsWithIds));
     }
     private FragmentMainBindingImpl(androidx.databinding.DataBindingComponent bindingComponent, View root, Object[] bindings) {
         super(bindingComponent, root, 0
             , (com.google.android.material.appbar.AppBarLayout) bindings[1]
-            , (com.google.android.material.bottomnavigation.BottomNavigationView) bindings[4]
-            , (androidx.fragment.app.FragmentContainerView) bindings[3]
+            , (androidx.recyclerview.widget.RecyclerView) bindings[3]
             , (com.google.android.material.appbar.MaterialToolbar) bindings[2]
             );
         this.mboundView0 = (androidx.constraintlayout.widget.ConstraintLayout) bindings[0];

@@ -8,10 +8,9 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.databinding.DataBindingUtil;
 import androidx.databinding.ViewDataBinding;
-import androidx.fragment.app.FragmentContainerView;
+import androidx.recyclerview.widget.RecyclerView;
 import com.google.android.material.appbar.AppBarLayout;
 import com.google.android.material.appbar.MaterialToolbar;
-import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.zenit.digital.R;
 import java.lang.Deprecated;
 import java.lang.Object;
@@ -21,21 +20,16 @@ public abstract class FragmentMainBinding extends ViewDataBinding {
   public final AppBarLayout appBarLayout;
 
   @NonNull
-  public final BottomNavigationView bottomNavigation;
-
-  @NonNull
-  public final FragmentContainerView mainNavHostFragment;
+  public final RecyclerView mainMenuRecyclerView;
 
   @NonNull
   public final MaterialToolbar toolbar;
 
   protected FragmentMainBinding(Object _bindingComponent, View _root, int _localFieldCount,
-      AppBarLayout appBarLayout, BottomNavigationView bottomNavigation,
-      FragmentContainerView mainNavHostFragment, MaterialToolbar toolbar) {
+      AppBarLayout appBarLayout, RecyclerView mainMenuRecyclerView, MaterialToolbar toolbar) {
     super(_bindingComponent, _root, _localFieldCount);
     this.appBarLayout = appBarLayout;
-    this.bottomNavigation = bottomNavigation;
-    this.mainNavHostFragment = mainNavHostFragment;
+    this.mainMenuRecyclerView = mainMenuRecyclerView;
     this.toolbar = toolbar;
   }
 

@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\ALEJO\Documents\GitHub\Applicacion_Zenit\app\src\main\AndroidManifest.xml:2:1-28:12
-INJECTED from C:\Users\ALEJO\Documents\GitHub\Applicacion_Zenit\app\src\main\AndroidManifest.xml:2:1-28:12
-INJECTED from C:\Users\ALEJO\Documents\GitHub\Applicacion_Zenit\app\src\main\AndroidManifest.xml:2:1-28:12
-INJECTED from C:\Users\ALEJO\Documents\GitHub\Applicacion_Zenit\app\src\main\AndroidManifest.xml:2:1-28:12
+ADDED from C:\Users\ALEJO\Documents\GitHub\Applicacion_Zenit\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from C:\Users\ALEJO\Documents\GitHub\Applicacion_Zenit\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from C:\Users\ALEJO\Documents\GitHub\Applicacion_Zenit\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from C:\Users\ALEJO\Documents\GitHub\Applicacion_Zenit\app\src\main\AndroidManifest.xml:2:1-31:12
 MERGED from [androidx.databinding:databinding-adapters:8.13.1] C:\Users\ALEJO\.gradle\caches\9.0-milestone-1\transforms\5c6f9575504d0d6f8c7e55c40141a6d6\transformed\databinding-adapters-8.13.1\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.databinding:databinding-ktx:8.13.1] C:\Users\ALEJO\.gradle\caches\9.0-milestone-1\transforms\804115b8092d2bae0bd8648b01e1a04c\transformed\jetified-databinding-ktx-8.13.1\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.databinding:databinding-runtime:8.13.1] C:\Users\ALEJO\.gradle\caches\9.0-milestone-1\transforms\504189cc144630fdccf075b068999b95\transformed\databinding-runtime-8.13.1\AndroidManifest.xml:2:1-7:12
@@ -78,8 +78,8 @@ ADDED from C:\Users\ALEJO\Documents\GitHub\Applicacion_Zenit\app\src\main\Androi
 	android:name
 		ADDED from C:\Users\ALEJO\Documents\GitHub\Applicacion_Zenit\app\src\main\AndroidManifest.xml:5:22-64
 application
-ADDED from C:\Users\ALEJO\Documents\GitHub\Applicacion_Zenit\app\src\main\AndroidManifest.xml:7:5-26:19
-INJECTED from C:\Users\ALEJO\Documents\GitHub\Applicacion_Zenit\app\src\main\AndroidManifest.xml:7:5-26:19
+ADDED from C:\Users\ALEJO\Documents\GitHub\Applicacion_Zenit\app\src\main\AndroidManifest.xml:7:5-29:19
+INJECTED from C:\Users\ALEJO\Documents\GitHub\Applicacion_Zenit\app\src\main\AndroidManifest.xml:7:5-29:19
 MERGED from [com.google.android.material:material:1.13.0] C:\Users\ALEJO\.gradle\caches\9.0-milestone-1\transforms\6eac331b0d7a4232ff0ab08c112b4c31\transformed\material-1.13.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.13.0] C:\Users\ALEJO\.gradle\caches\9.0-milestone-1\transforms\6eac331b0d7a4232ff0ab08c112b4c31\transformed\material-1.13.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] C:\Users\ALEJO\.gradle\caches\9.0-milestone-1\transforms\e7ce8240ca5e81007e4d22c54130d26b\transformed\constraintlayout-2.2.1\AndroidManifest.xml:7:5-20
@@ -120,12 +120,12 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\ALEJO\.gradle\cach
 		ADDED from C:\Users\ALEJO\Documents\GitHub\Applicacion_Zenit\app\src\main\AndroidManifest.xml:15:9-55
 	android:dataExtractionRules
 		ADDED from C:\Users\ALEJO\Documents\GitHub\Applicacion_Zenit\app\src\main\AndroidManifest.xml:9:9-65
-activity#com.zenit.digital.MainActivity
+activity#com.zenit.digital.SplashActivity
 ADDED from C:\Users\ALEJO\Documents\GitHub\Applicacion_Zenit\app\src\main\AndroidManifest.xml:17:9-25:20
 	android:exported
 		ADDED from C:\Users\ALEJO\Documents\GitHub\Applicacion_Zenit\app\src\main\AndroidManifest.xml:19:13-36
 	android:name
-		ADDED from C:\Users\ALEJO\Documents\GitHub\Applicacion_Zenit\app\src\main\AndroidManifest.xml:18:13-41
+		ADDED from C:\Users\ALEJO\Documents\GitHub\Applicacion_Zenit\app\src\main\AndroidManifest.xml:18:13-43
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
 ADDED from C:\Users\ALEJO\Documents\GitHub\Applicacion_Zenit\app\src\main\AndroidManifest.xml:20:13-24:29
 action#android.intent.action.MAIN
@@ -136,6 +136,12 @@ category#android.intent.category.LAUNCHER
 ADDED from C:\Users\ALEJO\Documents\GitHub\Applicacion_Zenit\app\src\main\AndroidManifest.xml:23:17-77
 	android:name
 		ADDED from C:\Users\ALEJO\Documents\GitHub\Applicacion_Zenit\app\src\main\AndroidManifest.xml:23:27-74
+activity#com.zenit.digital.MainActivity
+ADDED from C:\Users\ALEJO\Documents\GitHub\Applicacion_Zenit\app\src\main\AndroidManifest.xml:26:9-28:40
+	android:exported
+		ADDED from C:\Users\ALEJO\Documents\GitHub\Applicacion_Zenit\app\src\main\AndroidManifest.xml:28:13-37
+	android:name
+		ADDED from C:\Users\ALEJO\Documents\GitHub\Applicacion_Zenit\app\src\main\AndroidManifest.xml:27:13-41
 uses-sdk
 INJECTED from C:\Users\ALEJO\Documents\GitHub\Applicacion_Zenit\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\ALEJO\Documents\GitHub\Applicacion_Zenit\app\src\main\AndroidManifest.xml

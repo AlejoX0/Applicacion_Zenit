@@ -4,9 +4,9 @@
     <string name="username">Usuario</string>
     <string name="password">Contraseña</string>
     <string name="login">Iniciar sesión</string>
-    <string name="catalog">Catálogo</string>
+    <string name="catalog">Catálogo de Productos y Ofertas</string>
     <string name="gallery">Galería</string>
-    <string name="video">Video</string>
+    <string name="video">Video Promocional</string>
     <string name="social">Redes Sociales</string>
     <string name="product_images_placeholder">Las imágenes de los productos se agregarán aquí.</string>
     <string name="gallery_placeholder">La galería de fotos se implementará aquí.</string>
@@ -14,4 +14,22 @@
     <string name="facebook">Facebook</string>
     <string name="twitter">Twitter</string>
     <string name="instagram">Instagram</string>
+    <string name="main_topic">Tema Principal</string>
+    <string name="mission_vision">Misión, Visión y Actividad de la Empresa</string>
+    <string name="about_us">¿Quiénes Somos?</string>
+    <string name="contact">Contáctanos</string>
+    <string name="calculator">Cálculo de Simulación de Producto</string>
+
+    <!-- Mission, Vision, and Activity -->
+    <string name="mission_title">Misión</string>
+    <string name="mission_text">Ofrecer soluciones tecnológicas innovadoras y accesibles, comenzando con un servicio de mantenimiento de computadores de excelencia y expandiéndonos hacia la venta de accesorios de alta calidad para dispositivos móviles. Nos comprometemos a brindar una atención personalizada y a construir relaciones de confianza con nuestros clientes.</string>
+    <string name="vision_title">Visión</string>
+    <string name="vision_text">Ser la empresa líder en la región en la comercialización de productos tecnológicos y servicios de soporte técnico, reconocida por nuestra calidad, innovación y por adaptarnos a las necesidades de un mercado en constante cambio. Aspiramos a ser el aliado tecnológico de confianza para todos nuestros clientes.</string>
+    <string name="activity_title">Actividad de la Empresa</string>
+    <string name="activity_text">Zenit Digital inició en 2025 como un emprendimiento de mantenimiento y reparación de computadores. Con el tiempo, hemos expandido nuestras operaciones para incluir la venta de una cuidada selección de accesorios tecnológicos, como audífonos inalámbricos, cámaras de acción y otros gadgets, manteniendo siempre nuestro compromiso con la calidad y el buen servicio.</string>
+
+    <!-- Main Topic -->
+    <string name="main_topic_title">Tu Aliado en Tecnología y Soporte</string>
+    <string name="main_topic_subtitle">Soluciones a tu medida, desde mantenimiento experto hasta los mejores gadgets del mercado.</string>
+    <string name="main_topic_description">En Zenit Digital, entendemos que la tecnología es una parte esencial de tu día a día. Por eso, nos dedicamos a ofrecerte un servicio integral que va más allá de la simple venta de productos. Nacimos de la pasión por la tecnología y el servicio, y hoy somos tu mejor opción para el mantenimiento de tus equipos y para encontrar los accesorios que complementan tu estilo de vida digital. Confía en nosotros para mantener tus dispositivos en perfecto estado y para descubrir lo último en innovación tecnológica.</string>
 </resources>
