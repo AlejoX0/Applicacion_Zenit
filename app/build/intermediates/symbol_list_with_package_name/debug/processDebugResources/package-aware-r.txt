@@ -159,6 +159,7 @@ attr attributeName
 attr autoAdjustToWithinGrandparentBounds
 attr autoCompleteMode
 attr autoCompleteTextViewStyle
+attr autoPlay
 attr autoShowKeyboard
 attr autoSizeMaxTextSize
 attr autoSizeMinTextSize
@@ -550,6 +551,7 @@ attr elevationOverlayAccentColor
 attr elevationOverlayColor
 attr elevationOverlayEnabled
 attr emojiCompatEnabled
+attr enableAutomaticInitialization
 attr enableEdgeToEdge
 attr endIconCheckable
 attr endIconContentDescription
@@ -699,6 +701,7 @@ attr grid_verticalGaps
 attr guidelineUseRtl
 attr haloColor
 attr haloRadius
+attr handleNetworkEvents
 attr headerLayout
 attr headerMarginBottom
 attr height
@@ -1492,6 +1495,7 @@ attr useMaterialThemeColors
 attr values
 attr verticalOffset
 attr verticalOffsetWithText
+attr videoId
 attr viewInflaterClass
 attr viewTransitionMode
 attr viewTransitionOnCross
@@ -3592,6 +3596,7 @@ drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable avd_hide_password
 drawable avd_show_password
+drawable bose_earbuts
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
@@ -3600,11 +3605,13 @@ drawable btn_radio_off_mtrl
 drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
+drawable dellxps_14
 drawable design_fab_background
 drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable google_nest_hub
 drawable ic_arrow_back_black_24
 drawable ic_call_answer
 drawable ic_call_answer_low
@@ -3635,6 +3642,7 @@ drawable ic_search_black_24
 drawable ic_social
 drawable ic_twitter
 drawable ic_video
+drawable iphone15pro
 drawable m3_avd_hide_password
 drawable m3_avd_show_password
 drawable m3_bottom_sheet_drag_handle
@@ -3695,6 +3703,7 @@ drawable mtrl_switch_track
 drawable mtrl_switch_track_decoration
 drawable mtrl_tabs_default_indicator
 drawable navigation_empty_icon
+drawable nintendo_switch_oled
 drawable notification_action_background
 drawable notification_bg
 drawable notification_bg_low
@@ -3708,6 +3717,10 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable philips
+drawable playstation5
+drawable samsung_galaxys24_utra
+drawable sony_wh1000xm5
 drawable test_level_drawable
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
@@ -3771,6 +3784,8 @@ id action_bar_root
 id action_bar_spinner
 id action_bar_subtitle
 id action_bar_title
+id action_calculatorFragment_to_desktopPcBuilderFragment
+id action_calculatorFragment_to_laptopConfiguratorFragment
 id action_container
 id action_context_bar
 id action_divider
@@ -3885,6 +3900,8 @@ id design_menu_item_action_area
 id design_menu_item_action_area_stub
 id design_menu_item_text
 id design_navigation_view
+id desktopPcBuilderFragment
+id desktop_pc_builder_button
 id dialog_button
 id dimensions
 id direct
@@ -3910,6 +3927,7 @@ id edge
 id edit_query
 id edit_text_id
 id elastic
+id email_card
 id embed
 id end
 id endToStart
@@ -3942,6 +3960,7 @@ id galleryFragment
 id ghost_view
 id ghost_view_holder
 id gone
+id gpu_spinner
 id graph
 id graph_wrap
 id group_divider
@@ -3974,6 +3993,8 @@ id item_touch_helper_previous_elevation
 id jumpToEnd
 id jumpToStart
 id labeled
+id laptopConfiguratorFragment
+id laptop_configurator_button
 id layout
 id left
 id leftToRight
@@ -4028,6 +4049,7 @@ id month_navigation_fragment_toggle
 id month_navigation_next
 id month_navigation_previous
 id month_title
+id motherboard_spinner
 id motion_base
 id mtrl_calendar_day_selector_frame
 id mtrl_calendar_days_of_week
@@ -4115,10 +4137,12 @@ id path
 id pathRelative
 id peekHeight
 id percent
+id phone_card
 id pin
 id position
 id postLayout
 id pressed
+id processor_spinner
 id product_description
 id product_image
 id product_price
@@ -4126,6 +4150,7 @@ id product_title
 id progress_circular
 id progress_horizontal
 id radio
+id ram_spinner
 id ratio
 id rectangles
 id report_drawn
@@ -4199,6 +4224,7 @@ id start_center
 id staticLayout
 id staticPostLayout
 id stop
+id storage_spinner
 id stretch
 id submenuarrow
 id submit_area
@@ -4245,6 +4271,7 @@ id toolbar
 id top
 id topPanel
 id top_center
+id total_price_text_view
 id touch_outside
 id transitionToEnd
 id transitionToStart
@@ -4257,7 +4284,6 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
-id twitter_button
 id unchecked
 id uniform
 id unlabeled
@@ -4268,7 +4294,6 @@ id username_layout
 id vertical
 id vertical_only
 id videoFragment
-id video_view
 id view_offset_helper
 id view_transition
 id view_tree_disjoint_parent
@@ -4287,6 +4312,7 @@ id wrap_content
 id wrap_content_constrained
 id x_left
 id x_right
+id youtube_player_view
 integer abc_config_activityDefaultDur
 integer abc_config_activityShortDur
 integer app_bar_elevation_anim_duration
@@ -4427,7 +4453,9 @@ layout fragment_about_us
 layout fragment_calculator
 layout fragment_catalog
 layout fragment_contact
+layout fragment_desktop_pc_builder
 layout fragment_gallery
+layout fragment_laptop_configurator
 layout fragment_login
 layout fragment_main
 layout fragment_main_topic
@@ -4508,6 +4536,7 @@ mipmap ic_launcher_round
 navigation main_nav_graph
 navigation nav_graph
 plurals mtrl_badge_content_description
+raw ayp_youtube_player
 string abc_action_bar_home_description
 string abc_action_bar_up_description
 string abc_action_menu_overflow_description
@@ -4536,8 +4565,11 @@ string abc_shareactionprovider_share_with
 string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
 string about_us
+string about_us_description
 string activity_text
 string activity_title
+string alejandro_vargas_name
+string alejandro_vargas_role
 string androidx_startup
 string app_name
 string appbar_scrolling_view_behavior
@@ -4560,6 +4592,8 @@ string character_counter_overflowed_content_description
 string character_counter_pattern
 string clear_text_end_icon_content_description
 string contact
+string contact_email
+string contact_phone
 string dest_title
 string error_a11y_label
 string error_icon_content_description
@@ -4567,12 +4601,16 @@ string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
 string facebook
+string facebook_url
 string gallery
 string gallery_placeholder
 string hide_bottom_view_on_scroll_behavior
 string icon_content_description
 string instagram
+string instagram_url
 string item_view_role_description
+string kevin_pinto_name
+string kevin_pinto_role
 string login
 string m3_exceed_max_badge_text_suffix
 string m3_loading_indicator_content_description
@@ -6117,6 +6155,7 @@ styleable ViewBackgroundHelper android_background backgroundTint backgroundTintM
 styleable ViewPager2 android_orientation
 styleable ViewStubCompat android_id android_layout android_inflatedId
 styleable ViewTransition android_id SharedValue SharedValueId clearsTag duration ifTagNotSet ifTagSet motionInterpolator motionTarget onStateTransition pathMotionArc setsTag transitionDisable upDuration viewTransitionMode
+styleable YouTubePlayerView autoPlay enableAutomaticInitialization handleNetworkEvents videoId
 styleable include constraintSet
 xml backup_rules
 xml data_extraction_rules

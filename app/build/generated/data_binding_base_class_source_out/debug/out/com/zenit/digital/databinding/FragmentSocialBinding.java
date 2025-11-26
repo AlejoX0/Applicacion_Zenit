@@ -4,31 +4,27 @@ package com.zenit.digital.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.databinding.DataBindingUtil;
 import androidx.databinding.ViewDataBinding;
+import com.google.android.material.button.MaterialButton;
 import com.zenit.digital.R;
 import java.lang.Deprecated;
 import java.lang.Object;
 
 public abstract class FragmentSocialBinding extends ViewDataBinding {
   @NonNull
-  public final Button facebookButton;
+  public final MaterialButton facebookButton;
 
   @NonNull
-  public final Button instagramButton;
-
-  @NonNull
-  public final Button twitterButton;
+  public final MaterialButton instagramButton;
 
   protected FragmentSocialBinding(Object _bindingComponent, View _root, int _localFieldCount,
-      Button facebookButton, Button instagramButton, Button twitterButton) {
+      MaterialButton facebookButton, MaterialButton instagramButton) {
     super(_bindingComponent, _root, _localFieldCount);
     this.facebookButton = facebookButton;
     this.instagramButton = instagramButton;
-    this.twitterButton = twitterButton;
   }
 
   @NonNull

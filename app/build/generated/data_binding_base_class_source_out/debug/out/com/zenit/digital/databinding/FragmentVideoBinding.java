@@ -4,23 +4,23 @@ package com.zenit.digital.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.VideoView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.databinding.DataBindingUtil;
 import androidx.databinding.ViewDataBinding;
+import com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView;
 import com.zenit.digital.R;
 import java.lang.Deprecated;
 import java.lang.Object;
 
 public abstract class FragmentVideoBinding extends ViewDataBinding {
   @NonNull
-  public final VideoView videoView;
+  public final YouTubePlayerView youtubePlayerView;
 
   protected FragmentVideoBinding(Object _bindingComponent, View _root, int _localFieldCount,
-      VideoView videoView) {
+      YouTubePlayerView youtubePlayerView) {
     super(_bindingComponent, _root, _localFieldCount);
-    this.videoView = videoView;
+    this.youtubePlayerView = youtubePlayerView;
   }
 
   @NonNull

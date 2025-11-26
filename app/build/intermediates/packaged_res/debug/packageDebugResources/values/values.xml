@@ -8,16 +8,25 @@
     <color name="teal_700">#FF018786</color>
     <color name="white">#FFFFFFFF</color>
     <string name="about_us">¿Quiénes Somos?</string>
+    <string name="about_us_description">Zenit es un emprendimiento que nace en el 2025 por dos jóvenes estudiantes de la Universidad de Investigación y Desarrollo (UDI). Empezaron con el mantenimiento de computadores y arreglos mínimos, y con los meses fueron aumentando la actividad. Con esto, empezaron a vender productos para teléfonos como audífonos inalámbricos, cámaras GoPro y todo este tipo de cosas.</string>
     <string name="activity_text">Zenit Digital inició en 2025 como un emprendimiento de mantenimiento y reparación de computadores. Con el tiempo, hemos expandido nuestras operaciones para incluir la venta de una cuidada selección de accesorios tecnológicos, como audífonos inalámbricos, cámaras de acción y otros gadgets, manteniendo siempre nuestro compromiso con la calidad y el buen servicio.</string>
     <string name="activity_title">Actividad de la Empresa</string>
+    <string name="alejandro_vargas_name">Alejandro Vargas</string>
+    <string name="alejandro_vargas_role">Dirección de Producción y Codificación</string>
     <string name="app_name">Zenit Digital</string>
     <string name="calculator">Cálculo de Simulación de Producto</string>
     <string name="catalog">Catálogo de Productos y Ofertas</string>
     <string name="contact">Contáctanos</string>
+    <string name="contact_email">contacto@zenitdigital.com</string>
+    <string name="contact_phone">322-218-3059</string>
     <string name="facebook">Facebook</string>
+    <string name="facebook_url">https://www.facebook.com/share/1GThoBTXaG/?mibextid=wwXIfr</string>
     <string name="gallery">Galería</string>
     <string name="gallery_placeholder">La galería de fotos se implementará aquí.</string>
     <string name="instagram">Instagram</string>
+    <string name="instagram_url">https://www.instagram.com/zenit.digital25?igsh=Znc3bGJtNG84bGx3</string>
+    <string name="kevin_pinto_name">Kevin Pinto</string>
+    <string name="kevin_pinto_role">CEO y Director de Mantenimiento</string>
     <string name="login">Iniciar sesión</string>
     <string name="main_topic">Tema Principal</string>
     <string name="main_topic_description">En Zenit Digital, entendemos que la tecnología es una parte esencial de tu día a día. Por eso, nos dedicamos a ofrecerte un servicio integral que va más allá de la simple venta de productos. Nacimos de la pasión por la tecnología y el servicio, y hoy somos tu mejor opción para el mantenimiento de tus equipos y para encontrar los accesorios que complementan tu estilo de vida digital. Confía en nosotros para mantener tus dispositivos en perfecto estado y para descubrir lo último en innovación tecnológica.</string>

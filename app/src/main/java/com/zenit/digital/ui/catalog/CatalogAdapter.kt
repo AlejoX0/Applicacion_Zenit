@@ -2,10 +2,16 @@ package com.zenit.digital.ui.catalog
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
+import androidx.annotation.DrawableRes
 import androidx.recyclerview.widget.RecyclerView
 import com.zenit.digital.databinding.ItemCatalogProductBinding
 
-data class Product(val title: String, val description: String, val price: String)
+data class Product(
+    val title: String,
+    val description: String,
+    val price: String,
+    @DrawableRes val imageResId: Int
+)
 
 class CatalogAdapter(private val products: List<Product>) : RecyclerView.Adapter<CatalogAdapter.ProductViewHolder>() {
 
@@ -25,8 +31,7 @@ class CatalogAdapter(private val products: List<Product>) : RecyclerView.Adapter
             binding.productTitle.text = product.title
             binding.productDescription.text = product.description
             binding.productPrice.text = product.price
-            // Placeholder for the image
-            binding.productImage.setImageResource(android.R.color.darker_gray)
+            binding.productImage.setImageResource(product.imageResId)
         }
     }
 }

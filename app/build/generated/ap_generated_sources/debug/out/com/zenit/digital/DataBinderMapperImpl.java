@@ -10,7 +10,9 @@ import com.zenit.digital.databinding.FragmentAboutUsBindingImpl;
 import com.zenit.digital.databinding.FragmentCalculatorBindingImpl;
 import com.zenit.digital.databinding.FragmentCatalogBindingImpl;
 import com.zenit.digital.databinding.FragmentContactBindingImpl;
+import com.zenit.digital.databinding.FragmentDesktopPcBuilderBindingImpl;
 import com.zenit.digital.databinding.FragmentGalleryBindingImpl;
+import com.zenit.digital.databinding.FragmentLaptopConfiguratorBindingImpl;
 import com.zenit.digital.databinding.FragmentLoginBindingImpl;
 import com.zenit.digital.databinding.FragmentMainBindingImpl;
 import com.zenit.digital.databinding.FragmentMainTopicBindingImpl;
@@ -38,32 +40,38 @@ public class DataBinderMapperImpl extends DataBinderMapper {
 
   private static final int LAYOUT_FRAGMENTCONTACT = 4;
 
-  private static final int LAYOUT_FRAGMENTGALLERY = 5;
+  private static final int LAYOUT_FRAGMENTDESKTOPPCBUILDER = 5;
 
-  private static final int LAYOUT_FRAGMENTLOGIN = 6;
+  private static final int LAYOUT_FRAGMENTGALLERY = 6;
 
-  private static final int LAYOUT_FRAGMENTMAIN = 7;
+  private static final int LAYOUT_FRAGMENTLAPTOPCONFIGURATOR = 7;
 
-  private static final int LAYOUT_FRAGMENTMAINTOPIC = 8;
+  private static final int LAYOUT_FRAGMENTLOGIN = 8;
 
-  private static final int LAYOUT_FRAGMENTMISSION = 9;
+  private static final int LAYOUT_FRAGMENTMAIN = 9;
 
-  private static final int LAYOUT_FRAGMENTSOCIAL = 10;
+  private static final int LAYOUT_FRAGMENTMAINTOPIC = 10;
 
-  private static final int LAYOUT_FRAGMENTVIDEO = 11;
+  private static final int LAYOUT_FRAGMENTMISSION = 11;
 
-  private static final int LAYOUT_ITEMCATALOGPRODUCT = 12;
+  private static final int LAYOUT_FRAGMENTSOCIAL = 12;
 
-  private static final int LAYOUT_ITEMMAINMENU = 13;
+  private static final int LAYOUT_FRAGMENTVIDEO = 13;
 
-  private static final SparseIntArray INTERNAL_LAYOUT_ID_LOOKUP = new SparseIntArray(13);
+  private static final int LAYOUT_ITEMCATALOGPRODUCT = 14;
+
+  private static final int LAYOUT_ITEMMAINMENU = 15;
+
+  private static final SparseIntArray INTERNAL_LAYOUT_ID_LOOKUP = new SparseIntArray(15);
 
   static {
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.zenit.digital.R.layout.fragment_about_us, LAYOUT_FRAGMENTABOUTUS);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.zenit.digital.R.layout.fragment_calculator, LAYOUT_FRAGMENTCALCULATOR);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.zenit.digital.R.layout.fragment_catalog, LAYOUT_FRAGMENTCATALOG);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.zenit.digital.R.layout.fragment_contact, LAYOUT_FRAGMENTCONTACT);
+    INTERNAL_LAYOUT_ID_LOOKUP.put(com.zenit.digital.R.layout.fragment_desktop_pc_builder, LAYOUT_FRAGMENTDESKTOPPCBUILDER);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.zenit.digital.R.layout.fragment_gallery, LAYOUT_FRAGMENTGALLERY);
+    INTERNAL_LAYOUT_ID_LOOKUP.put(com.zenit.digital.R.layout.fragment_laptop_configurator, LAYOUT_FRAGMENTLAPTOPCONFIGURATOR);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.zenit.digital.R.layout.fragment_login, LAYOUT_FRAGMENTLOGIN);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.zenit.digital.R.layout.fragment_main, LAYOUT_FRAGMENTMAIN);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.zenit.digital.R.layout.fragment_main_topic, LAYOUT_FRAGMENTMAINTOPIC);
@@ -107,11 +115,23 @@ public class DataBinderMapperImpl extends DataBinderMapper {
           }
           throw new IllegalArgumentException("The tag for fragment_contact is invalid. Received: " + tag);
         }
+        case  LAYOUT_FRAGMENTDESKTOPPCBUILDER: {
+          if ("layout/fragment_desktop_pc_builder_0".equals(tag)) {
+            return new FragmentDesktopPcBuilderBindingImpl(component, view);
+          }
+          throw new IllegalArgumentException("The tag for fragment_desktop_pc_builder is invalid. Received: " + tag);
+        }
         case  LAYOUT_FRAGMENTGALLERY: {
           if ("layout/fragment_gallery_0".equals(tag)) {
             return new FragmentGalleryBindingImpl(component, view);
           }
           throw new IllegalArgumentException("The tag for fragment_gallery is invalid. Received: " + tag);
+        }
+        case  LAYOUT_FRAGMENTLAPTOPCONFIGURATOR: {
+          if ("layout/fragment_laptop_configurator_0".equals(tag)) {
+            return new FragmentLaptopConfiguratorBindingImpl(component, view);
+          }
+          throw new IllegalArgumentException("The tag for fragment_laptop_configurator is invalid. Received: " + tag);
         }
         case  LAYOUT_FRAGMENTLOGIN: {
           if ("layout/fragment_login_0".equals(tag)) {
@@ -214,14 +234,16 @@ public class DataBinderMapperImpl extends DataBinderMapper {
   }
 
   private static class InnerLayoutIdLookup {
-    static final HashMap<String, Integer> sKeys = new HashMap<String, Integer>(13);
+    static final HashMap<String, Integer> sKeys = new HashMap<String, Integer>(15);
 
     static {
       sKeys.put("layout/fragment_about_us_0", com.zenit.digital.R.layout.fragment_about_us);
       sKeys.put("layout/fragment_calculator_0", com.zenit.digital.R.layout.fragment_calculator);
       sKeys.put("layout/fragment_catalog_0", com.zenit.digital.R.layout.fragment_catalog);
       sKeys.put("layout/fragment_contact_0", com.zenit.digital.R.layout.fragment_contact);
+      sKeys.put("layout/fragment_desktop_pc_builder_0", com.zenit.digital.R.layout.fragment_desktop_pc_builder);
       sKeys.put("layout/fragment_gallery_0", com.zenit.digital.R.layout.fragment_gallery);
+      sKeys.put("layout/fragment_laptop_configurator_0", com.zenit.digital.R.layout.fragment_laptop_configurator);
       sKeys.put("layout/fragment_login_0", com.zenit.digital.R.layout.fragment_login);
       sKeys.put("layout/fragment_main_0", com.zenit.digital.R.layout.fragment_main);
       sKeys.put("layout/fragment_main_topic_0", com.zenit.digital.R.layout.fragment_main_topic);

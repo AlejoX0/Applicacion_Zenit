@@ -8,13 +8,23 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.databinding.DataBindingUtil;
 import androidx.databinding.ViewDataBinding;
+import com.google.android.material.card.MaterialCardView;
 import com.zenit.digital.R;
 import java.lang.Deprecated;
 import java.lang.Object;
 
 public abstract class FragmentContactBinding extends ViewDataBinding {
-  protected FragmentContactBinding(Object _bindingComponent, View _root, int _localFieldCount) {
+  @NonNull
+  public final MaterialCardView emailCard;
+
+  @NonNull
+  public final MaterialCardView phoneCard;
+
+  protected FragmentContactBinding(Object _bindingComponent, View _root, int _localFieldCount,
+      MaterialCardView emailCard, MaterialCardView phoneCard) {
     super(_bindingComponent, _root, _localFieldCount);
+    this.emailCard = emailCard;
+    this.phoneCard = phoneCard;
   }
 
   @NonNull

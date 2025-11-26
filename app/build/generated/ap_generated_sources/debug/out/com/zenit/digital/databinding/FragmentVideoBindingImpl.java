@@ -14,7 +14,7 @@ public class FragmentVideoBindingImpl extends FragmentVideoBinding  {
     static {
         sIncludes = null;
         sViewsWithIds = new android.util.SparseIntArray();
-        sViewsWithIds.put(R.id.video_view, 1);
+        sViewsWithIds.put(R.id.youtube_player_view, 1);
     }
     // views
     @NonNull
@@ -29,7 +29,7 @@ public class FragmentVideoBindingImpl extends FragmentVideoBinding  {
     }
     private FragmentVideoBindingImpl(androidx.databinding.DataBindingComponent bindingComponent, View root, Object[] bindings) {
         super(bindingComponent, root, 0
-            , (android.widget.VideoView) bindings[1]
+            , (com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView) bindings[1]
             );
         this.mboundView0 = (androidx.constraintlayout.widget.ConstraintLayout) bindings[0];
         this.mboundView0.setTag(null);

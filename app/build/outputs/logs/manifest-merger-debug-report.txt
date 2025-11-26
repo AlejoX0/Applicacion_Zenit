@@ -38,6 +38,7 @@ MERGED from [androidx.window:window:1.0.0] C:\Users\ALEJO\.gradle\caches\9.0-mil
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\ALEJO\.gradle\caches\9.0-milestone-1\transforms\f341f6f9afbdd175ebe93162a6a7067e\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.core:core:1.17.0] C:\Users\ALEJO\.gradle\caches\9.0-milestone-1\transforms\7a1fee66375f7d9952502ff8f891c931\transformed\core-1.17.0\AndroidManifest.xml:17:1-30:12
 MERGED from [androidx.graphics:graphics-shapes-android:1.0.1] C:\Users\ALEJO\.gradle\caches\9.0-milestone-1\transforms\927345943e7bf61aa871f5592e3d17fd\transformed\jetified-graphics-shapes-release\AndroidManifest.xml:2:1-7:12
+MERGED from [com.pierfrancescosoffritti.androidyoutubeplayer:core:12.1.0] C:\Users\ALEJO\.gradle\caches\9.0-milestone-1\transforms\5995e233bf4e42b74faf5afb5cf189a1\transformed\jetified-core-12.1.0\AndroidManifest.xml:2:1-10:12
 MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.9.0] C:\Users\ALEJO\.gradle\caches\9.0-milestone-1\transforms\355a6551d241d062cf35d231e774e5c2\transformed\jetified-lifecycle-runtime-ktx\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.9.0] C:\Users\ALEJO\.gradle\caches\9.0-milestone-1\transforms\4c0a2edbb3e83c3123832d31a5bbd3e0\transformed\jetified-lifecycle-viewmodel-ktx-2.9.0\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.lifecycle:lifecycle-service:2.9.0] C:\Users\ALEJO\.gradle\caches\9.0-milestone-1\transforms\f03435c1f1f26f9ab4e53bf45c84e28c\transformed\jetified-lifecycle-service-2.9.0\AndroidManifest.xml:2:1-7:12
@@ -75,6 +76,8 @@ MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\ALEJO\.gradle\cache
 		ADDED from C:\Users\ALEJO\Documents\GitHub\Applicacion_Zenit\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
 ADDED from C:\Users\ALEJO\Documents\GitHub\Applicacion_Zenit\app\src\main\AndroidManifest.xml:5:5-67
+MERGED from [com.pierfrancescosoffritti.androidyoutubeplayer:core:12.1.0] C:\Users\ALEJO\.gradle\caches\9.0-milestone-1\transforms\5995e233bf4e42b74faf5afb5cf189a1\transformed\jetified-core-12.1.0\AndroidManifest.xml:7:5-67
+MERGED from [com.pierfrancescosoffritti.androidyoutubeplayer:core:12.1.0] C:\Users\ALEJO\.gradle\caches\9.0-milestone-1\transforms\5995e233bf4e42b74faf5afb5cf189a1\transformed\jetified-core-12.1.0\AndroidManifest.xml:7:5-67
 	android:name
 		ADDED from C:\Users\ALEJO\Documents\GitHub\Applicacion_Zenit\app\src\main\AndroidManifest.xml:5:22-64
 application
@@ -214,6 +217,8 @@ MERGED from [androidx.core:core:1.17.0] C:\Users\ALEJO\.gradle\caches\9.0-milest
 MERGED from [androidx.core:core:1.17.0] C:\Users\ALEJO\.gradle\caches\9.0-milestone-1\transforms\7a1fee66375f7d9952502ff8f891c931\transformed\core-1.17.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.graphics:graphics-shapes-android:1.0.1] C:\Users\ALEJO\.gradle\caches\9.0-milestone-1\transforms\927345943e7bf61aa871f5592e3d17fd\transformed\jetified-graphics-shapes-release\AndroidManifest.xml:5:5-44
 MERGED from [androidx.graphics:graphics-shapes-android:1.0.1] C:\Users\ALEJO\.gradle\caches\9.0-milestone-1\transforms\927345943e7bf61aa871f5592e3d17fd\transformed\jetified-graphics-shapes-release\AndroidManifest.xml:5:5-44
+MERGED from [com.pierfrancescosoffritti.androidyoutubeplayer:core:12.1.0] C:\Users\ALEJO\.gradle\caches\9.0-milestone-1\transforms\5995e233bf4e42b74faf5afb5cf189a1\transformed\jetified-core-12.1.0\AndroidManifest.xml:5:5-44
+MERGED from [com.pierfrancescosoffritti.androidyoutubeplayer:core:12.1.0] C:\Users\ALEJO\.gradle\caches\9.0-milestone-1\transforms\5995e233bf4e42b74faf5afb5cf189a1\transformed\jetified-core-12.1.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.9.0] C:\Users\ALEJO\.gradle\caches\9.0-milestone-1\transforms\355a6551d241d062cf35d231e774e5c2\transformed\jetified-lifecycle-runtime-ktx\AndroidManifest.xml:5:5-44
 MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.9.0] C:\Users\ALEJO\.gradle\caches\9.0-milestone-1\transforms\355a6551d241d062cf35d231e774e5c2\transformed\jetified-lifecycle-runtime-ktx\AndroidManifest.xml:5:5-44
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.9.0] C:\Users\ALEJO\.gradle\caches\9.0-milestone-1\transforms\4c0a2edbb3e83c3123832d31a5bbd3e0\transformed\jetified-lifecycle-viewmodel-ktx-2.9.0\AndroidManifest.xml:5:5-44
@@ -322,6 +327,10 @@ uses-permission#com.zenit.digital.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
 ADDED from [androidx.core:core:1.17.0] C:\Users\ALEJO\.gradle\caches\9.0-milestone-1\transforms\7a1fee66375f7d9952502ff8f891c931\transformed\core-1.17.0\AndroidManifest.xml:26:5-97
 	android:name
 		ADDED from [androidx.core:core:1.17.0] C:\Users\ALEJO\.gradle\caches\9.0-milestone-1\transforms\7a1fee66375f7d9952502ff8f891c931\transformed\core-1.17.0\AndroidManifest.xml:26:22-94
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.pierfrancescosoffritti.androidyoutubeplayer:core:12.1.0] C:\Users\ALEJO\.gradle\caches\9.0-milestone-1\transforms\5995e233bf4e42b74faf5afb5cf189a1\transformed\jetified-core-12.1.0\AndroidManifest.xml:8:5-79
+	android:name
+		ADDED from [com.pierfrancescosoffritti.androidyoutubeplayer:core:12.1.0] C:\Users\ALEJO\.gradle\caches\9.0-milestone-1\transforms\5995e233bf4e42b74faf5afb5cf189a1\transformed\jetified-core-12.1.0\AndroidManifest.xml:8:22-76
 meta-data#androidx.lifecycle.ProcessLifecycleInitializer
 ADDED from [androidx.lifecycle:lifecycle-process:2.9.0] C:\Users\ALEJO\.gradle\caches\9.0-milestone-1\transforms\3a71f443bb97999d1b2ba6a2324ad7d6\transformed\jetified-lifecycle-process-2.9.0\AndroidManifest.xml:29:13-31:52
 	android:value

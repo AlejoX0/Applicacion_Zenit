@@ -8,13 +8,23 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.databinding.DataBindingUtil;
 import androidx.databinding.ViewDataBinding;
+import com.google.android.material.button.MaterialButton;
 import com.zenit.digital.R;
 import java.lang.Deprecated;
 import java.lang.Object;
 
 public abstract class FragmentCalculatorBinding extends ViewDataBinding {
-  protected FragmentCalculatorBinding(Object _bindingComponent, View _root, int _localFieldCount) {
+  @NonNull
+  public final MaterialButton desktopPcBuilderButton;
+
+  @NonNull
+  public final MaterialButton laptopConfiguratorButton;
+
+  protected FragmentCalculatorBinding(Object _bindingComponent, View _root, int _localFieldCount,
+      MaterialButton desktopPcBuilderButton, MaterialButton laptopConfiguratorButton) {
     super(_bindingComponent, _root, _localFieldCount);
+    this.desktopPcBuilderButton = desktopPcBuilderButton;
+    this.laptopConfiguratorButton = laptopConfiguratorButton;
   }
 
   @NonNull

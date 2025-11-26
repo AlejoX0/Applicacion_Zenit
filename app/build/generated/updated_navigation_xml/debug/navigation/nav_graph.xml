@@ -94,5 +94,24 @@ app:startDestination="@id/loginFragment" >
     android:id="@+id/calculatorFragment"
     android:name="com.zenit.digital.ui.calculator.CalculatorFragment"
     android:label="fragment_calculator"
-    tools:layout="@layout/fragment_calculator" />
+    tools:layout="@layout/fragment_calculator" >
+
+    <action
+        android:id="@+id/action_calculatorFragment_to_desktopPcBuilderFragment"
+        app:destination="@id/desktopPcBuilderFragment" />
+    <action
+        android:id="@+id/action_calculatorFragment_to_laptopConfiguratorFragment"
+        app:destination="@id/laptopConfiguratorFragment" />
+
+</fragment>
+<fragment
+    android:id="@+id/desktopPcBuilderFragment"
+    android:name="com.zenit.digital.ui.calculator.DesktopPcBuilderFragment"
+    android:label="Armar PC de Escritorio"
+    tools:layout="@layout/fragment_desktop_pc_builder" />
+<fragment
+    android:id="@+id/laptopConfiguratorFragment"
+    android:name="com.zenit.digital.ui.calculator.LaptopConfiguratorFragment"
+    android:label="Configurar Portátil"
+    tools:layout="@layout/fragment_laptop_configurator" />
 </navigation>

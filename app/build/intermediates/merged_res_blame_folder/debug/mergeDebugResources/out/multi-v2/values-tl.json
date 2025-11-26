@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.zenit.digital.app-mergeDebugResources-49:/values-tl/values-tl.xml",
+            "outputFile": "com.zenit.digital.app-mergeDebugResources-50:/values-tl/values-tl.xml",
             "map": [
                 {
                     "source": "C:\\Users\\ALEJO\\.gradle\\caches\\9.0-milestone-1\\transforms\\7a1fee66375f7d9952502ff8f891c931\\transformed\\core-1.17.0\\res\\values-tl\\values-tl.xml",

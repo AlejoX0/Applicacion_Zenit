@@ -14,28 +14,26 @@ public class FragmentSocialBindingImpl extends FragmentSocialBinding  {
     static {
         sIncludes = null;
         sViewsWithIds = new android.util.SparseIntArray();
-        sViewsWithIds.put(R.id.facebook_button, 1);
-        sViewsWithIds.put(R.id.twitter_button, 2);
-        sViewsWithIds.put(R.id.instagram_button, 3);
+        sViewsWithIds.put(R.id.instagram_button, 1);
+        sViewsWithIds.put(R.id.facebook_button, 2);
     }
     // views
     @NonNull
-    private final androidx.constraintlayout.widget.ConstraintLayout mboundView0;
+    private final android.widget.LinearLayout mboundView0;
     // variables
     // values
     // listeners
     // Inverse Binding Event Handlers
 
     public FragmentSocialBindingImpl(@Nullable androidx.databinding.DataBindingComponent bindingComponent, @NonNull View root) {
-        this(bindingComponent, root, mapBindings(bindingComponent, root, 4, sIncludes, sViewsWithIds));
+        this(bindingComponent, root, mapBindings(bindingComponent, root, 3, sIncludes, sViewsWithIds));
     }
     private FragmentSocialBindingImpl(androidx.databinding.DataBindingComponent bindingComponent, View root, Object[] bindings) {
         super(bindingComponent, root, 0
-            , (android.widget.Button) bindings[1]
-            , (android.widget.Button) bindings[3]
-            , (android.widget.Button) bindings[2]
+            , (com.google.android.material.button.MaterialButton) bindings[2]
+            , (com.google.android.material.button.MaterialButton) bindings[1]
             );
-        this.mboundView0 = (androidx.constraintlayout.widget.ConstraintLayout) bindings[0];
+        this.mboundView0 = (android.widget.LinearLayout) bindings[0];
         this.mboundView0.setTag(null);
         setRootTag(root);
         // listeners
