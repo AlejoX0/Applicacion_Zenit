@@ -1,0 +1,7 @@
+C:\Users\ALEJO\Documents\GitHub\Applicacion_Zenit\app\src\main\java\com\zenit\digital\MainActivity.kt
+C:\Users\ALEJO\Documents\GitHub\Applicacion_Zenit\app\src\main\java\com\zenit\digital\ui\catalog\CatalogFragment.kt
+C:\Users\ALEJO\Documents\GitHub\Applicacion_Zenit\app\src\main\java\com\zenit\digital\ui\social\SocialFragment.kt
+C:\Users\ALEJO\Documents\GitHub\Applicacion_Zenit\app\src\main\java\com\zenit\digital\ui\main\MainFragment.kt
+C:\Users\ALEJO\Documents\GitHub\Applicacion_Zenit\app\src\main\java\com\zenit\digital\ui\login\LoginFragment.kt
+C:\Users\ALEJO\Documents\GitHub\Applicacion_Zenit\app\src\main\java\com\zenit\digital\ui\gallery\GalleryFragment.kt
+C:\Users\ALEJO\Documents\GitHub\Applicacion_Zenit\app\src\main\java\com\zenit\digital\ui\video\VideoFragment.kt

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Zenit Digital</string>
+    <string name="username">Usuario</string>
+    <string name="password">Contraseña</string>
+    <string name="login">Iniciar sesión</string>
+    <string name="catalog">Catálogo</string>
+    <string name="gallery">Galería</string>
+    <string name="video">Video</string>
+    <string name="social">Redes Sociales</string>
+    <string name="product_images_placeholder">Las imágenes de los productos se agregarán aquí.</string>
+    <string name="gallery_placeholder">La galería de fotos se implementará aquí.</string>
+    <string name="video_placeholder">El video promocional se agregará aquí.</string>
+    <string name="facebook">Facebook</string>
+    <string name="twitter">Twitter</string>
+    <string name="instagram">Instagram</string>
+</resources>

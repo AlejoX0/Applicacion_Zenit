@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?><backup-rules>
+    <cloud-backup>
+        <exclude domain="database" path="zenit_database"/>
+        <exclude domain="sharedpref" path="device_id.xml"/>
+    </cloud-backup>
+</backup-rules>
