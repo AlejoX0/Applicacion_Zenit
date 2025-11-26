@@ -1,26 +1,26 @@
 [
     {
-        "merged": "com.zenit.digital.app-mergeDebugResources-49:/layout/fragment_login.xml",
-        "source": "com.zenit.digital.app-main-52:/layout/fragment_login.xml"
+        "merged": "com.zenit.digital.app-mergeDebugResources-50:/layout/fragment_gallery.xml",
+        "source": "com.zenit.digital.app-main-53:/layout/fragment_gallery.xml"
     },
     {
-        "merged": "com.zenit.digital.app-mergeDebugResources-49:/layout/fragment_video.xml",
-        "source": "com.zenit.digital.app-main-52:/layout/fragment_video.xml"
+        "merged": "com.zenit.digital.app-mergeDebugResources-50:/layout/fragment_video.xml",
+        "source": "com.zenit.digital.app-main-53:/layout/fragment_video.xml"
     },
     {
-        "merged": "com.zenit.digital.app-mergeDebugResources-49:/layout/fragment_social.xml",
-        "source": "com.zenit.digital.app-main-52:/layout/fragment_social.xml"
+        "merged": "com.zenit.digital.app-mergeDebugResources-50:/layout/fragment_login.xml",
+        "source": "com.zenit.digital.app-main-53:/layout/fragment_login.xml"
     },
     {
-        "merged": "com.zenit.digital.app-mergeDebugResources-49:/layout/fragment_catalog.xml",
-        "source": "com.zenit.digital.app-main-52:/layout/fragment_catalog.xml"
+        "merged": "com.zenit.digital.app-mergeDebugResources-50:/layout/fragment_social.xml",
+        "source": "com.zenit.digital.app-main-53:/layout/fragment_social.xml"
     },
     {
-        "merged": "com.zenit.digital.app-mergeDebugResources-49:/layout/fragment_gallery.xml",
-        "source": "com.zenit.digital.app-main-52:/layout/fragment_gallery.xml"
+        "merged": "com.zenit.digital.app-mergeDebugResources-50:/layout/fragment_main.xml",
+        "source": "com.zenit.digital.app-main-53:/layout/fragment_main.xml"
     },
     {
-        "merged": "com.zenit.digital.app-mergeDebugResources-49:/layout/fragment_main.xml",
-        "source": "com.zenit.digital.app-main-52:/layout/fragment_main.xml"
+        "merged": "com.zenit.digital.app-mergeDebugResources-50:/layout/fragment_catalog.xml",
+        "source": "com.zenit.digital.app-main-53:/layout/fragment_catalog.xml"
     }
 ]

@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.zenit.digital.app-mergeDebugResources-48:/values-h360dp-land-v13/values-h360dp-land-v13.xml",
+            "outputFile": "com.zenit.digital.app-mergeDebugResources-49:/values-h360dp-land-v13/values-h360dp-land-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\ALEJO\\.gradle\\caches\\9.0-milestone-1\\transforms\\aed70ac775a31f61d07650e0c2b3c253\\transformed\\material-1.9.0\\res\\values-h360dp-land-v13\\values-h360dp-land-v13.xml",
+                    "source": "C:\\Users\\ALEJO\\.gradle\\caches\\9.0-milestone-1\\transforms\\6eac331b0d7a4232ff0ab08c112b4c31\\transformed\\material-1.13.0\\res\\values-h360dp-land-v13\\values-h360dp-land-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10",
                         "startColumns": "4,4,4,4,4,4,4,4,4",

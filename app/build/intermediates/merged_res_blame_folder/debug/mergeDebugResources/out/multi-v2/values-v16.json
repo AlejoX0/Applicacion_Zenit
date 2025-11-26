@@ -1,20 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.zenit.digital.app-mergeDebugResources-48:/values-v16/values-v16.xml",
+            "outputFile": "com.zenit.digital.app-mergeDebugResources-49:/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\ALEJO\\.gradle\\caches\\9.0-milestone-1\\transforms\\41939bfd794e27efde60a808d99a5f53\\transformed\\core-1.10.1\\res\\values-v16\\values-v16.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "65",
-                        "endOffsets": "116"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\ALEJO\\.gradle\\caches\\9.0-milestone-1\\transforms\\371b9b077f81941d6638581eb62f17da\\transformed\\appcompat-1.6.1\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\ALEJO\\.gradle\\caches\\9.0-milestone-1\\transforms\\5da9453ade0aa738abd43ae7be4295ed\\transformed\\appcompat-1.7.1\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -22,14 +12,6 @@
                         "endLines": "5",
                         "endColumns": "12",
                         "endOffsets": "223"
-                    },
-                    "to": {
-                        "startLines": "3",
-                        "startColumns": "4",
-                        "startOffsets": "121",
-                        "endLines": "6",
-                        "endColumns": "12",
-                        "endOffsets": "289"
                     }
                 }
             ]
