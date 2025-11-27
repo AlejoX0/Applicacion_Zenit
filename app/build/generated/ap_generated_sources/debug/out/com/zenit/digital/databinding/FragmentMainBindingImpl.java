@@ -20,7 +20,7 @@ public class FragmentMainBindingImpl extends FragmentMainBinding  {
     }
     // views
     @NonNull
-    private final androidx.constraintlayout.widget.ConstraintLayout mboundView0;
+    private final androidx.coordinatorlayout.widget.CoordinatorLayout mboundView0;
     // variables
     // values
     // listeners
@@ -35,7 +35,7 @@ public class FragmentMainBindingImpl extends FragmentMainBinding  {
             , (androidx.recyclerview.widget.RecyclerView) bindings[3]
             , (com.google.android.material.appbar.MaterialToolbar) bindings[2]
             );
-        this.mboundView0 = (androidx.constraintlayout.widget.ConstraintLayout) bindings[0];
+        this.mboundView0 = (androidx.coordinatorlayout.widget.CoordinatorLayout) bindings[0];
         this.mboundView0.setTag(null);
         setRootTag(root);
         // listeners

@@ -4,11 +4,12 @@ package com.zenit.digital.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.databinding.DataBindingUtil;
 import androidx.databinding.ViewDataBinding;
+import com.google.android.material.button.MaterialButton;
 import com.google.android.material.textfield.TextInputEditText;
 import com.google.android.material.textfield.TextInputLayout;
 import com.zenit.digital.R;
@@ -17,7 +18,10 @@ import java.lang.Object;
 
 public abstract class FragmentLoginBinding extends ViewDataBinding {
   @NonNull
-  public final Button loginButton;
+  public final MaterialButton loginButton;
+
+  @NonNull
+  public final TextView loginTitle;
 
   @NonNull
   public final TextInputEditText passwordEditText;
@@ -32,10 +36,12 @@ public abstract class FragmentLoginBinding extends ViewDataBinding {
   public final TextInputLayout usernameLayout;
 
   protected FragmentLoginBinding(Object _bindingComponent, View _root, int _localFieldCount,
-      Button loginButton, TextInputEditText passwordEditText, TextInputLayout passwordLayout,
-      TextInputEditText usernameEditText, TextInputLayout usernameLayout) {
+      MaterialButton loginButton, TextView loginTitle, TextInputEditText passwordEditText,
+      TextInputLayout passwordLayout, TextInputEditText usernameEditText,
+      TextInputLayout usernameLayout) {
     super(_bindingComponent, _root, _localFieldCount);
     this.loginButton = loginButton;
+    this.loginTitle = loginTitle;
     this.passwordEditText = passwordEditText;
     this.passwordLayout = passwordLayout;
     this.usernameEditText = usernameEditText;

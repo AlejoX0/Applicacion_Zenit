@@ -10,6 +10,7 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="@drawable/gradient_background"
         tools:context=".ui.mission.MissionFragment" android:tag="layout/fragment_mission_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
 
         <LinearLayout
@@ -22,26 +23,30 @@
             <com.google.android.material.card.MaterialCardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="16dp">
+                android:layout_marginBottom="16dp"
+                app:cardBackgroundColor="#20FFFFFF"
+                app:cardCornerRadius="16dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="vertical"
-                    android:padding="16dp">
+                    android:padding="24dp">
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/mission_title"
-                        android:textAppearance="?attr/textAppearanceHeadline5" />
+                        android:textAppearance="?attr/textAppearanceHeadline5"
+                        android:textColor="@color/zenit_white" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="8dp"
                         android:text="@string/mission_text"
-                        android:textAppearance="?attr/textAppearanceBody1" />
+                        android:textAppearance="?attr/textAppearanceBody1"
+                        android:textColor="@color/zenit_light_gray" />
                 </LinearLayout>
             </com.google.android.material.card.MaterialCardView>
 
@@ -49,52 +54,60 @@
             <com.google.android.material.card.MaterialCardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="16dp">
+                android:layout_marginBottom="16dp"
+                app:cardBackgroundColor="#20FFFFFF"
+                app:cardCornerRadius="16dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="vertical"
-                    android:padding="16dp">
+                    android:padding="24dp">
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/vision_title"
-                        android:textAppearance="?attr/textAppearanceHeadline5" />
+                        android:textAppearance="?attr/textAppearanceHeadline5"
+                        android:textColor="@color/zenit_white" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="8dp"
                         android:text="@string/vision_text"
-                        android:textAppearance="?attr/textAppearanceBody1" />
+                        android:textAppearance="?attr/textAppearanceBody1"
+                        android:textColor="@color/zenit_light_gray" />
                 </LinearLayout>
             </com.google.android.material.card.MaterialCardView>
 
             <!-- Activity Card -->
             <com.google.android.material.card.MaterialCardView
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                app:cardBackgroundColor="#20FFFFFF"
+                app:cardCornerRadius="16dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="vertical"
-                    android:padding="16dp">
+                    android:padding="24dp">
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/activity_title"
-                        android:textAppearance="?attr/textAppearanceHeadline5" />
+                        android:textAppearance="?attr/textAppearanceHeadline5"
+                        android:textColor="@color/zenit_white" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="8dp"
                         android:text="@string/activity_text"
-                        android:textAppearance="?attr/textAppearanceBody1" />
+                        android:textAppearance="?attr/textAppearanceBody1"
+                        android:textColor="@color/zenit_light_gray" />
                 </LinearLayout>
             </com.google.android.material.card.MaterialCardView>
 

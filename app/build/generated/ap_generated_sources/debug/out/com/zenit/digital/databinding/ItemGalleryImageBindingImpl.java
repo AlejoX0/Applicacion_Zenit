@@ -13,22 +13,26 @@ public class ItemGalleryImageBindingImpl extends ItemGalleryImageBinding  {
     private static final android.util.SparseIntArray sViewsWithIds;
     static {
         sIncludes = null;
-        sViewsWithIds = null;
+        sViewsWithIds = new android.util.SparseIntArray();
+        sViewsWithIds.put(R.id.gallery_image, 1);
     }
     // views
+    @NonNull
+    private final com.google.android.material.card.MaterialCardView mboundView0;
     // variables
     // values
     // listeners
     // Inverse Binding Event Handlers
 
     public ItemGalleryImageBindingImpl(@Nullable androidx.databinding.DataBindingComponent bindingComponent, @NonNull View root) {
-        this(bindingComponent, root, mapBindings(bindingComponent, root, 1, sIncludes, sViewsWithIds));
+        this(bindingComponent, root, mapBindings(bindingComponent, root, 2, sIncludes, sViewsWithIds));
     }
     private ItemGalleryImageBindingImpl(androidx.databinding.DataBindingComponent bindingComponent, View root, Object[] bindings) {
         super(bindingComponent, root, 0
-            , (android.widget.ImageView) bindings[0]
+            , (android.widget.ImageView) bindings[1]
             );
-        this.galleryImage.setTag(null);
+        this.mboundView0 = (com.google.android.material.card.MaterialCardView) bindings[0];
+        this.mboundView0.setTag(null);
         setRootTag(root);
         // listeners
         invalidateAll();

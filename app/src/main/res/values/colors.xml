@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Zenit Palette -->
+    <color name="zenit_dark_blue">#1C2A3A</color>
+    <color name="zenit_space_blue">#28354A</color>
+    <color name="zenit_cyan_accent">#00E5FF</color>
+    <color name="zenit_light_gray">#B0BEC5</color>
+    <color name="zenit_white">#ECEFF1</color>
+
+    <!-- Standard Colors -->
     <color name="purple_200">#FFBB86FC</color>
     <color name="purple_500">#FF6200EE</color>
     <color name="purple_700">#FF3700B3</color>

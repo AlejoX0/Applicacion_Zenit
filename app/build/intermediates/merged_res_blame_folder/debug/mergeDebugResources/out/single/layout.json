@@ -16,16 +16,16 @@
         "source": "C:\\Users\\ALEJO\\.gradle\\daemon\\9.0-milestone-1\\com.zenit.digital.app-main-54:\\layout\\fragment_mission.xml"
     },
     {
-        "merged": "C:\\Users\\ALEJO\\.gradle\\daemon\\9.0-milestone-1\\com.zenit.digital.app-mergeDebugResources-51:\\layout\\fragment_contact.xml",
-        "source": "C:\\Users\\ALEJO\\.gradle\\daemon\\9.0-milestone-1\\com.zenit.digital.app-main-54:\\layout\\fragment_contact.xml"
-    },
-    {
         "merged": "C:\\Users\\ALEJO\\.gradle\\daemon\\9.0-milestone-1\\com.zenit.digital.app-mergeDebugResources-51:\\layout\\fragment_social.xml",
         "source": "C:\\Users\\ALEJO\\.gradle\\daemon\\9.0-milestone-1\\com.zenit.digital.app-main-54:\\layout\\fragment_social.xml"
     },
     {
-        "merged": "com.zenit.digital.app-mergeDebugResources-51:/layout/fragment_gallery.xml",
-        "source": "com.zenit.digital.app-main-54:/layout/fragment_gallery.xml"
+        "merged": "C:\\Users\\ALEJO\\.gradle\\daemon\\9.0-milestone-1\\com.zenit.digital.app-mergeDebugResources-51:\\layout\\fragment_contact.xml",
+        "source": "C:\\Users\\ALEJO\\.gradle\\daemon\\9.0-milestone-1\\com.zenit.digital.app-main-54:\\layout\\fragment_contact.xml"
+    },
+    {
+        "merged": "C:\\Users\\ALEJO\\.gradle\\daemon\\9.0-milestone-1\\com.zenit.digital.app-mergeDebugResources-51:\\layout\\item_gallery_image.xml",
+        "source": "C:\\Users\\ALEJO\\.gradle\\daemon\\9.0-milestone-1\\com.zenit.digital.app-main-54:\\layout\\item_gallery_image.xml"
     },
     {
         "merged": "C:\\Users\\ALEJO\\.gradle\\daemon\\9.0-milestone-1\\com.zenit.digital.app-mergeDebugResources-51:\\layout\\item_catalog_product.xml",
@@ -56,12 +56,12 @@
         "source": "C:\\Users\\ALEJO\\.gradle\\daemon\\9.0-milestone-1\\com.zenit.digital.app-main-54:\\layout\\item_main_menu.xml"
     },
     {
-        "merged": "C:\\Users\\ALEJO\\.gradle\\daemon\\9.0-milestone-1\\com.zenit.digital.app-mergeDebugResources-51:\\layout\\fragment_about_us.xml",
-        "source": "C:\\Users\\ALEJO\\.gradle\\daemon\\9.0-milestone-1\\com.zenit.digital.app-main-54:\\layout\\fragment_about_us.xml"
+        "merged": "com.zenit.digital.app-mergeDebugResources-51:/layout/fragment_about_us.xml",
+        "source": "com.zenit.digital.app-main-54:/layout/fragment_about_us.xml"
     },
     {
-        "merged": "com.zenit.digital.app-mergeDebugResources-51:/layout/item_gallery_image.xml",
-        "source": "com.zenit.digital.app-main-54:/layout/item_gallery_image.xml"
+        "merged": "C:\\Users\\ALEJO\\.gradle\\daemon\\9.0-milestone-1\\com.zenit.digital.app-mergeDebugResources-51:\\layout\\fragment_about_us.xml",
+        "source": "C:\\Users\\ALEJO\\.gradle\\daemon\\9.0-milestone-1\\com.zenit.digital.app-main-54:\\layout\\fragment_about_us.xml"
     },
     {
         "merged": "C:\\Users\\ALEJO\\.gradle\\daemon\\9.0-milestone-1\\com.zenit.digital.app-mergeDebugResources-51:\\layout\\fragment_catalog.xml",

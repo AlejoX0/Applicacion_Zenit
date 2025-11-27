@@ -9,14 +9,19 @@
     <com.google.android.material.card.MaterialCardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="8dp">
+        android:layout_margin="8dp"
+        app:cardBackgroundColor="#20FFFFFF" 
+        app:cardCornerRadius="16dp"
+        app:strokeColor="@color/zenit_cyan_accent"
+        app:strokeWidth="1dp">
 
         <TextView
             android:id="@+id/menu_item_title"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:padding="16dp"
-            android:textAppearance="?attr/textAppearanceHeadline6" />
+            android:padding="24dp"
+            android:textAppearance="?attr/textAppearanceHeadline6"
+            android:textColor="@color/zenit_white" />
 
     </com.google.android.material.card.MaterialCardView>
 </layout>

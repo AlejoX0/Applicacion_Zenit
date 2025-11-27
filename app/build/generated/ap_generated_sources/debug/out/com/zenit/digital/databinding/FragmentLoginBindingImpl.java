@@ -14,11 +14,12 @@ public class FragmentLoginBindingImpl extends FragmentLoginBinding  {
     static {
         sIncludes = null;
         sViewsWithIds = new android.util.SparseIntArray();
-        sViewsWithIds.put(R.id.username_layout, 1);
-        sViewsWithIds.put(R.id.username_edit_text, 2);
-        sViewsWithIds.put(R.id.password_layout, 3);
-        sViewsWithIds.put(R.id.password_edit_text, 4);
-        sViewsWithIds.put(R.id.login_button, 5);
+        sViewsWithIds.put(R.id.login_title, 1);
+        sViewsWithIds.put(R.id.username_layout, 2);
+        sViewsWithIds.put(R.id.username_edit_text, 3);
+        sViewsWithIds.put(R.id.password_layout, 4);
+        sViewsWithIds.put(R.id.password_edit_text, 5);
+        sViewsWithIds.put(R.id.login_button, 6);
     }
     // views
     @NonNull
@@ -29,15 +30,16 @@ public class FragmentLoginBindingImpl extends FragmentLoginBinding  {
     // Inverse Binding Event Handlers
 
     public FragmentLoginBindingImpl(@Nullable androidx.databinding.DataBindingComponent bindingComponent, @NonNull View root) {
-        this(bindingComponent, root, mapBindings(bindingComponent, root, 6, sIncludes, sViewsWithIds));
+        this(bindingComponent, root, mapBindings(bindingComponent, root, 7, sIncludes, sViewsWithIds));
     }
     private FragmentLoginBindingImpl(androidx.databinding.DataBindingComponent bindingComponent, View root, Object[] bindings) {
         super(bindingComponent, root, 0
-            , (android.widget.Button) bindings[5]
-            , (com.google.android.material.textfield.TextInputEditText) bindings[4]
-            , (com.google.android.material.textfield.TextInputLayout) bindings[3]
-            , (com.google.android.material.textfield.TextInputEditText) bindings[2]
-            , (com.google.android.material.textfield.TextInputLayout) bindings[1]
+            , (com.google.android.material.button.MaterialButton) bindings[6]
+            , (android.widget.TextView) bindings[1]
+            , (com.google.android.material.textfield.TextInputEditText) bindings[5]
+            , (com.google.android.material.textfield.TextInputLayout) bindings[4]
+            , (com.google.android.material.textfield.TextInputEditText) bindings[3]
+            , (com.google.android.material.textfield.TextInputLayout) bindings[2]
             );
         this.mboundView0 = (androidx.constraintlayout.widget.ConstraintLayout) bindings[0];
         this.mboundView0.setTag(null);

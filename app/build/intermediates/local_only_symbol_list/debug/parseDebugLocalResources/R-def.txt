@@ -7,9 +7,16 @@ color purple_700
 color teal_200
 color teal_700
 color white
+color zenit_cyan_accent
+color zenit_dark_blue
+color zenit_light_gray
+color zenit_space_blue
+color zenit_white
+drawable alejandro_vargas
 drawable bose_earbuts
 drawable dellxps_14
 drawable google_nest_hub
+drawable gradient_background
 drawable ic_catalog
 drawable ic_facebook
 drawable ic_gallery
@@ -20,6 +27,7 @@ drawable ic_social
 drawable ic_twitter
 drawable ic_video
 drawable iphone15pro
+drawable kevin_pinto
 drawable nintendo_switch_oled
 drawable philips
 drawable playstation5
@@ -56,6 +64,7 @@ id laptopConfiguratorFragment
 id laptop_configurator_button
 id loginFragment
 id login_button
+id login_title
 id mainFragment
 id mainTopicFragment
 id main_menu_recycler_view

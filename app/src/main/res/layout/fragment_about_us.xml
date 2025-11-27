@@ -10,6 +10,7 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="@drawable/gradient_background"
         tools:context=".ui.aboutus.AboutUsFragment">
 
         <LinearLayout
@@ -18,18 +19,34 @@
             android:orientation="vertical"
             android:padding="16dp">
 
-            <TextView
-                android:layout_width="wrap_content"
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/about_us"
-                android:textAppearance="?attr/textAppearanceHeadline5" />
+                app:cardBackgroundColor="#20FFFFFF"
+                app:cardCornerRadius="16dp">
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="8dp"
-                android:text="@string/about_us_description"
-                android:textAppearance="?attr/textAppearanceBody1" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="24dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/about_us"
+                        android:textAppearance="?attr/textAppearanceHeadline5"
+                        android:textColor="@color/zenit_white" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:text="@string/about_us_description"
+                        android:textAppearance="?attr/textAppearanceBody1"
+                        android:textColor="@color/zenit_light_gray" />
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
 
             <!-- Team Members -->
             <TextView
@@ -37,24 +54,29 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="24dp"
                 android:text="Nuestro Equipo"
-                android:textAppearance="?attr/textAppearanceHeadline5" />
+                android:textAppearance="?attr/textAppearanceHeadline5"
+                android:textColor="@color/zenit_white" />
 
             <!-- Kevin Pinto -->
             <com.google.android.material.card.MaterialCardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="16dp">
+                android:layout_marginTop="16dp"
+                app:cardBackgroundColor="#20FFFFFF"
+                app:cardCornerRadius="16dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
                     android:orientation="horizontal"
-                    android:padding="16dp">
+                    android:padding="24dp">
 
-                    <ImageView
+                    <com.google.android.material.imageview.ShapeableImageView
                         android:layout_width="80dp"
                         android:layout_height="80dp"
-                        android:src="@android:drawable/ic_menu_camera" />
+                        android:src="@drawable/kevin_pinto"
+                        app:shapeAppearanceOverlay="@style/ShapeAppearance.Material3.Corner.Full" />
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -66,13 +88,15 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="@string/kevin_pinto_name"
-                            android:textAppearance="?attr/textAppearanceHeadline6" />
+                            android:textAppearance="?attr/textAppearanceHeadline6"
+                            android:textColor="@color/zenit_white" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="@string/kevin_pinto_role"
-                            android:textAppearance="?attr/textAppearanceBody2" />
+                            android:textAppearance="?attr/textAppearanceBody2"
+                            android:textColor="@color/zenit_cyan_accent" />
                     </LinearLayout>
                 </LinearLayout>
             </com.google.android.material.card.MaterialCardView>
@@ -81,18 +105,22 @@
             <com.google.android.material.card.MaterialCardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="16dp">
+                android:layout_marginTop="16dp"
+                app:cardBackgroundColor="#20FFFFFF"
+                app:cardCornerRadius="16dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
                     android:orientation="horizontal"
-                    android:padding="16dp">
+                    android:padding="24dp">
 
-                    <ImageView
+                    <com.google.android.material.imageview.ShapeableImageView
                         android:layout_width="80dp"
                         android:layout_height="80dp"
-                        android:src="@android:drawable/ic_menu_camera" />
+                        android:src="@drawable/alejandro_vargas"
+                        app:shapeAppearanceOverlay="@style/ShapeAppearance.Material3.Corner.Full" />
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -104,13 +132,15 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="@string/alejandro_vargas_name"
-                            android:textAppearance="?attr/textAppearanceHeadline6" />
+                            android:textAppearance="?attr/textAppearanceHeadline6"
+                            android:textColor="@color/zenit_white" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="@string/alejandro_vargas_role"
-                            android:textAppearance="?attr/textAppearanceBody2" />
+                            android:textAppearance="?attr/textAppearanceBody2"
+                            android:textColor="@color/zenit_cyan_accent" />
                     </LinearLayout>
                 </LinearLayout>
             </com.google.android.material.card.MaterialCardView>

@@ -2,15 +2,18 @@
     <!-- Base application theme. -->
     <style name="Theme.Applicacion_Zenit" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/purple_500</item>
-        <item name="colorPrimaryVariant">@color/purple_700</item>
-        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimary">@color/zenit_dark_blue</item>
+        <item name="colorPrimaryVariant">@color/zenit_dark_blue</item>
+        <item name="colorOnPrimary">@color/zenit_white</item>
         <!-- Secondary brand color. -->
-        <item name="colorSecondary">@color/teal_200</item>
-        <item name="colorSecondaryVariant">@color/teal_700</item>
-        <item name="colorOnSecondary">@color/black</item>
+        <item name="colorSecondary">@color/zenit_cyan_accent</item>
+        <item name="colorOnSecondary">@color/zenit_dark_blue</item>
         <!-- Status bar color. -->
-        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
-        <!-- Customize your theme here. -->
+        <item name="android:statusBarColor">@color/zenit_dark_blue</item>
+        <!-- Background color. -->
+        <item name="android:windowBackground">@color/zenit_space_blue</item>
+        <!-- Text colors. -->
+        <item name="android:textColor">@color/zenit_white</item>
+        <item name="android:textColorHint">@color/zenit_light_gray</item>
     </style>
 </resources>

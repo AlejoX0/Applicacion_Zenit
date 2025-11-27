@@ -2483,6 +2483,11 @@ color teal_700
 color tooltip_background_dark
 color tooltip_background_light
 color white
+color zenit_cyan_accent
+color zenit_dark_blue
+color zenit_light_gray
+color zenit_space_blue
+color zenit_white
 dimen abc_action_bar_content_inset_material
 dimen abc_action_bar_content_inset_with_nav
 dimen abc_action_bar_default_height_material
@@ -3594,6 +3599,7 @@ drawable abc_textfield_search_activated_mtrl_alpha
 drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
+drawable alejandro_vargas
 drawable avd_hide_password
 drawable avd_show_password
 drawable bose_earbuts
@@ -3612,6 +3618,7 @@ drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
 drawable google_nest_hub
+drawable gradient_background
 drawable ic_arrow_back_black_24
 drawable ic_call_answer
 drawable ic_call_answer_low
@@ -3643,6 +3650,7 @@ drawable ic_social
 drawable ic_twitter
 drawable ic_video
 drawable iphone15pro
+drawable kevin_pinto
 drawable m3_avd_hide_password
 drawable m3_avd_show_password
 drawable m3_bottom_sheet_drag_handle
@@ -4009,6 +4017,7 @@ id list_item
 id locale
 id loginFragment
 id login_button
+id login_title
 id ltr
 id m3_side_sheet
 id mainFragment
